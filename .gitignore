@@ -1,0 +1,14 @@
+# Node Modules
+node_modules/
+
+# Yarn
+yarn.lock
+
+# Output
+dist/
+
+# Secrets
+src/config/secrets.js
+
+# Backups
+backup/
