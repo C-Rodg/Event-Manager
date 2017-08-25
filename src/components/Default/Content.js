@@ -5,19 +5,25 @@ import { languageStrings } from "../../config/defaultLanguageStrings";
 // TESTING
 import { secrets } from "../../config/secrets";
 
-const Content = ({ activeTab, agendaItems, lang }) => {
+const Content = ({ activeTab, agendaItems, lang, evalUrl }) => {
 	return (
 		<div className="content">
-			{renderContent(lang, activeTab, agendaItems)}
+			{renderContent(lang, activeTab, agendaItems, evalUrl)}
 		</div>
 	);
 };
 
-const renderContent = (lang, tab, agenda) => {
+const renderContent = (lang, tab, agenda, evalUrl) => {
 	if (tab === "feedback") {
 		return (
 			<div className="content-feedback">
-				<iframe src={secrets.evalUrl} frameBorder="no" />
+				{evalUrl
+					? <iframe src={evalUrl} frameBorder="no" />
+					: <div className="nothing-found card">
+							<div className="card-content">
+								{languageStrings[lang].noEvalText}
+							</div>
+						</div>}
 			</div>
 		);
 	} else if (tab === "agenda") {
@@ -25,7 +31,7 @@ const renderContent = (lang, tab, agenda) => {
 			<div className="content-agenda">
 				{agenda && agenda.length > 0
 					? renderAgenda(agenda)
-					: <div className="no-agenda card">
+					: <div className="nothing-found card">
 							<div className="card-content">
 								{languageStrings[lang].noAgendaText}
 							</div>

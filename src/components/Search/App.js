@@ -28,7 +28,7 @@ class App extends Component {
 			.get(`Info?${query}`)
 			.then(resp => {
 				console.log(resp);
-				const { Name, EnableContactQuickCode } = resp.data;
+				const { Name, EnableContactQuickCode } = resp.data.Info;
 				this.setState({
 					eventName: Name,
 					quickContactEnabled: EnableContactQuickCode

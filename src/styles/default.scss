@@ -2,7 +2,7 @@
 
 .default-app {
 	.header {
-		min-height: 103px;
+		min-height: 87px;
 
 		.tabs {
 			color: $text-gray;
@@ -11,7 +11,7 @@
 			.tab {
 				user-select: none;
 				flex: 1;
-				padding: 8px 0;
+				padding: 8px 0 13px 0;
 				cursor: pointer;
 
 				.tab-icon,
@@ -83,19 +83,17 @@
 			}
 		}
 
-		.card.no-agenda {
+		.card.nothing-found {
 			.card-content {
 				color: $off-black;
 				padding: 16px 10px;
+				text-align: center;
+				font-family: $heavy-font;
 			}
 		}
 
 		.content-agenda {
 			width: 100%;
-			.no-agenda {
-				text-align: center;
-				font-family: $heavy-font;
-			}
 		}
 
 		.content-feedback {

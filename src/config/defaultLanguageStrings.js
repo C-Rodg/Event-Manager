@@ -6,7 +6,8 @@ export const languageStrings = {
 		qrText:
 			"Show your personal QuickReg QR code to check-in at the registration desk.",
 		walletButton: "Add to Wallet App",
-		noAgendaText: "No agenda found..."
+		noAgendaText: "No agenda found...",
+		noEvalText: "No current evaluations..."
 	},
 	arabic: {
 		tabQR: "تذكرة",
@@ -15,7 +16,8 @@ export const languageStrings = {
 		qrText:
 			"يظهر رمز QuickReg QR الشخصي الخاص بك لتتمكن من تسجيل الدخول في مكتب التسجيل.",
 		walletButton: "إضافة إلى المحفظة",
-		noAgendaText: "الجدول الخاص بك فارغ."
+		noAgendaText: "الجدول الخاص بك فارغ.",
+		noEvalText: "لم يتم العثور على تقييمات"
 	},
 	czech: {
 		tabQR: "Lístek",
@@ -23,7 +25,8 @@ export const languageStrings = {
 		tabFeedback: "Zpětná vazba",
 		qrText: "Ukažte svůj osobní QR kód QuickReg při registraci.",
 		walletButton: "Přidat do peněženky",
-		noAgendaText: "Váš harmonogram je prázdný."
+		noAgendaText: "Váš harmonogram je prázdný.",
+		noEvalText: "Žádné hodnocení nebylo nalezeno"
 	},
 
 	finnish: {
@@ -33,7 +36,8 @@ export const languageStrings = {
 		qrText:
 			"Näyttää henkilökohtaisen QuickReg QR-koodin rekisteröintikassalla sisäänkirjautumista varten.",
 		walletButton: "Lisää lompakkoon",
-		noAgendaText: "Aikataulusi on tyhjä."
+		noAgendaText: "Aikataulusi on tyhjä.",
+		noEvalText: "Arviointeja ei löytynyt"
 	},
 	french: {
 		tabQR: "Billet",
@@ -42,7 +46,8 @@ export const languageStrings = {
 		qrText:
 			"Montrez votre code QuickReg QR  lors de l'enregistrement au guichet.",
 		walletButton: "Add to Wallet App",
-		noAgendaText: "Votre planning est vide."
+		noAgendaText: "Votre planning est vide.",
+		noEvalText: "Aucune évaluation trouvée"
 	},
 	german: {
 		tabQR: "Fahrkarte",
@@ -51,7 +56,8 @@ export const languageStrings = {
 		qrText:
 			"Zeigen Sie Ihren privaten QuickReg QR-Code bei der Anmeldung zur Registrierung.",
 		walletButton: "Ajouter au portefeuille",
-		noAgendaText: "Ihr Terminplan ist leer."
+		noAgendaText: "Ihr Terminplan ist leer.",
+		noEvalText: "Keine Auswertungen gefunden"
 	},
 	hebrew: {
 		tabQR: "כַּרְטִיס",
@@ -59,7 +65,8 @@ export const languageStrings = {
 		tabFeedback: "משוב",
 		qrText: "הצג את קוד ה-QuickReg QR האישי שלך כדי להירשם בדוכן.",
 		walletButton: "הוסף לארנק",
-		noAgendaText: "לוח הזמנים שלך ריק."
+		noAgendaText: "לוח הזמנים שלך ריק.",
+		noEvalText: "לא נמצאו הערכות"
 	},
 	italian: {
 		tabQR: "Biglietto",
@@ -68,7 +75,8 @@ export const languageStrings = {
 		qrText:
 			"Mostra il tuo codice QR QuickReg personale per effettuare il check-in all'ufficio di registrazione.",
 		walletButton: "Aggiungi al portafoglio",
-		noAgendaText: "Il tuo calendario è vuoto."
+		noAgendaText: "Il tuo calendario è vuoto.",
+		noEvalText: "Nessuna valutazione trovata"
 	},
 	japanese: {
 		tabQR: "チケット",
@@ -76,7 +84,8 @@ export const languageStrings = {
 		tabFeedback: "フィードバック",
 		qrText: "あなたの個人的 QuickReg QR コードを表示して、登録デスクにチェックインしてください。",
 		walletButton: "ウォレットに追加",
-		noAgendaText: "あなたのスケジュールは空です。"
+		noAgendaText: "あなたのスケジュールは空です。",
+		noEvalText: "評価が見つかりません"
 	},
 	polish: {
 		tabQR: "Bilet",
@@ -84,7 +93,8 @@ export const languageStrings = {
 		tabFeedback: "Opinie",
 		qrText: "Pokaż osobisty kod QR QuickReg, aby zameldować się w recepcji.",
 		walletButton: "Dodaj do portfela",
-		noAgendaText: "Twój harmonogram jest pusty."
+		noAgendaText: "Twój harmonogram jest pusty.",
+		noEvalText: "Nie znaleziono żadnych ocen"
 	},
 	portuguese: {
 		tabQR: "Bilhete",
@@ -92,7 +102,8 @@ export const languageStrings = {
 		tabFeedback: "Feedback",
 		qrText: "Mostre o seu código QuickReg QR para se inscrever na recepção.",
 		walletButton: "Adicionar à carteira",
-		noAgendaText: "Sua programação está vazia."
+		noAgendaText: "Sua programação está vazia.",
+		noEvalText: "Nenhuma avaliação encontrada"
 	},
 	russian: {
 		tabQR: "Билет",
@@ -101,7 +112,8 @@ export const languageStrings = {
 		qrText:
 			"Отображение вашего личного QR-кода QuickReg, с помощью которого вы сможете зарегистрироваться в пункте регистрации.",
 		walletButton: "Добавить в кошелек",
-		noAgendaText: "Ваше расписание пусто."
+		noAgendaText: "Ваше расписание пусто.",
+		noEvalText: "Оценки не найдены"
 	},
 	spain: {
 		tabQR: "Boleto",
@@ -110,7 +122,8 @@ export const languageStrings = {
 		qrText:
 			"Muestre su código personal QuickReg QR al registrarse en el mostrador.",
 		walletButton: "Añadir a la cartera",
-		noAgendaText: "Su calendario está vacío."
+		noAgendaText: "Su calendario está vacío.",
+		noEvalText: "No se encontraron evaluaciones"
 	},
 	spanish: {
 		tabQR: "QR code",
@@ -119,7 +132,8 @@ export const languageStrings = {
 		qrText:
 			"Muestre su código personal QuickReg QR al registrarse en el mostrador.",
 		walletButton: "Añadir a la cartera",
-		noAgendaText: "Su calendario está vacío."
+		noAgendaText: "Su calendario está vacío.",
+		noEvalText: "No se encontraron evaluaciones"
 	},
 	sweedish: {
 		tabQR: "Biljett",
@@ -128,7 +142,8 @@ export const languageStrings = {
 		qrText:
 			"Visa din personliga QuickReg QR-kod för att checka in vid registreringsdisken.",
 		walletButton: "Lägg till i plånboken",
-		noAgendaText: "Ditt schema är tomt."
+		noAgendaText: "Ditt schema är tomt.",
+		noEvalText: "Inga utvärderingar hittades"
 	},
 	turkish: {
 		tabQR: "Bilet",
@@ -137,7 +152,8 @@ export const languageStrings = {
 		qrText:
 			"Kayıt masasında kayıt yaptırmak için kişisel QuickReg QR Kodunuzu gösterin.",
 		walletButton: "Cüzdan ekle",
-		noAgendaText: "Planlamanız boş."
+		noAgendaText: "Planlamanız boş.",
+		noEvalText: "Hiçbir değerlendirmenin bulunamadı"
 	},
 	ukranian: {
 		tabQR: "Квиток",
@@ -145,6 +161,7 @@ export const languageStrings = {
 		tabFeedback: "Зворотний зв'язок",
 		qrText: "Покажіть свій особистий QuickReg QR-код на реєстраційній стійці.",
 		walletButton: "Додати до кошика",
-		noAgendaText: "Ваш розклад порожній."
+		noAgendaText: "Ваш розклад порожній.",
+		noEvalText: "Оцінки не знайдено"
 	}
 };
