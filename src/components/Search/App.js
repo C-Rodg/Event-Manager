@@ -17,7 +17,8 @@ class App extends Component {
 		this.state = {
 			eventTitle: "",
 			lang,
-			isLTR
+			isLTR,
+			quickContactEnabled: true
 		};
 	}
 
@@ -27,6 +28,11 @@ class App extends Component {
 			.get(`Info?${query}`)
 			.then(resp => {
 				console.log(resp);
+				const { Name, EnableContactQuickCode } = resp.data;
+				this.setState({
+					eventName: Name,
+					quickContactEnabled: EnableContactQuickCode
+				});
 			})
 			.catch(err => {
 				console.log("ERROR");
@@ -38,7 +44,10 @@ class App extends Component {
 		return (
 			<div className={["search-app", this.state.isLTR ? "" : "rtl"].join(" ")}>
 				<Header eventTitle={this.state.eventTitle} />
-				<Content lang={this.state.lang} />
+				<Content
+					lang={this.state.lang}
+					quickContactEnabled={this.state.quickContactEnabled}
+				/>
 			</div>
 		);
 	}

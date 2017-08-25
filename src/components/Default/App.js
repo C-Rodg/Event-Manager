@@ -22,6 +22,7 @@ class App extends Component {
 
 		this.state = {
 			activeTab: "qr",
+			eventName: "",
 			tabs: config.tabs,
 			lang,
 			isLTR
@@ -34,6 +35,10 @@ class App extends Component {
 			.get(`Info?${query}`)
 			.then(resp => {
 				console.log(resp);
+				const { Name } = resp.data;
+				this.setState({
+					eventName: Name
+				});
 			})
 			.catch(err => {
 				console.log("ERROR:");
