@@ -101,14 +101,16 @@ module.exports = {
 			template: "src/default.html",
 			env: true,
 			filename: "./default.html",
-			chunks: ["vendor", "app"]
+			chunks: ["vendor", "app"],
+			favicon: "./src/static/favicon.ico"
 		}),
 		new HtmlWebpackPlugin({
 			title: "Validar EventHub self-identify",
 			template: "src/search.html",
 			env: true,
 			filename: "./SelfIdentify.html",
-			chunks: ["vendor", "search"]
+			chunks: ["vendor", "search"],
+			favicon: "./src/static/favicon.ico"
 		}),
 		new UglifyJsPlugin({
 			beautify: false,
